@@ -121,6 +121,61 @@
             font-size: 14px;
             color: #666;
         }
+        /* Footer */
+        .footer {
+            background-color: #222;
+            color: white;
+            padding: 40px 20px 10px;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .footer-section {
+            max-width: 300px;
+        }
+
+        .footer-section h3,
+        .footer-section h4 {
+            margin-bottom: 15px;
+        }
+
+        .footer-section p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-section ul li a {
+            text-decoration: none;
+            color: #ccc;
+            transition: 0.3s;
+        }
+
+        .footer-section ul li a:hover {
+            color: #00bcd4;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 30px;
+            border-top: 1px solid #444;
+            padding-top: 10px;
+            font-size: 14px;
+            color: #aaa;
+        }
     </style>
 </head>
 
@@ -166,6 +221,41 @@
 
         </div>
     </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-section">
+                <h3>MyWebsite</h3>
+                <p>Creating modern and responsive websites using HTML & CSS.</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: info@mywebsite.com</p>
+                <p>Phone: +92 300 1234567</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 MyWebsite | All Rights Reserved</p>
+        </div>
+    </footer>
+
+
 
 </body>
 
